@@ -7,9 +7,9 @@
 	$(document).ready(function(){
 	
 		$('.banner-image').backstretch([
-			'Content/banner.jpg',
-			'Content/banner1.jpg',
-			'Content/banner2.jpg'
+			'images/banner.jpg',
+			'images/banner1.jpg',
+			'images/banner2.jpg'
 		]);
 		
 		// Fixed header
