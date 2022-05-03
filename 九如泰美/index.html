@@ -1,0 +1,372 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>昕誠建設有限公司 – 綠豪園</title>
+  <meta content="綠豪園建案為昕誠建設營造，以篤實及誠信立基，建立良好商譽，跨足建設，推出首案品牌代表，不惜成本，用料扎實，居家在乎的結構安全及防水一次做到位！嚴選建材，打造萬巒仕紳首選的第一名宅。，城鄉差異導致教育機會不平等的現象，成為全球共同面對的挑戰" name="description">
+  <meta content="綠豪園,昕誠建設,萬巒透天" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon/favicon.ico" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="https://mattstow.com/experiment/responsive-image-maps/jquery.rwdImageMaps.min.js"></script>
+  <script type="text/javascript" src="assets/js/fullscreen.js"></script>
+  <style>
+	.box {
+	  position:absolute;
+	  top:0px;
+	  right:0px;
+	  bottom:0px;
+	  left:0px;
+	}
+	
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 10px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.imgTony {
+    width: 100%;
+    height: 100vh; 
+    object-fit: fill;
+}
+  </style>
+  <script type="text/javascript">
+	function ChangeImg(targetImage) {
+		switch (targetImage) {
+			case 'a5RF':
+				$('#imgBg').attr("src", "assets/img/house/A5-RF.png");
+				break;
+			case 'a54F':
+				$('#imgBg').attr("src", "assets/img/house/A5-4F.png");
+				break;
+			case 'a53F':
+				$('#imgBg').attr("src", "assets/img/house/A5-3F.png");
+				break;
+			case 'a52F':
+				$('#imgBg').attr("src", "assets/img/house/A5-2F.png");
+				break;
+			case 'a5':
+				$('#imgBg').attr("src", "assets/img/house/A5-1F.png");
+				$("#1F").attr("onclick", "ChangeImg('a5'); return false;");
+				$("#2F").attr("onclick", "ChangeImg('a52F'); return false;");
+				$("#3F").attr("onclick", "ChangeImg('a53F'); return false;");
+				$("#4F").attr("onclick", "ChangeImg('a54F'); return false;");
+				$("#RF").attr("onclick", "ChangeImg('a5RF'); return false;");
+				break;
+			case 'b6RF':
+				$('#imgBg').attr("src", "assets/img/house/B6-RF.png");
+				break;
+			case 'b64F':
+				$('#imgBg').attr("src", "assets/img/house/B6-4F.png");
+				break;
+			case 'b63F':
+				$('#imgBg').attr("src", "assets/img/house/B6-3F.png");
+				break;
+			case 'b62F':
+				$('#imgBg').attr("src", "assets/img/house/B6-2F.png");
+				break;
+			case 'b6':
+				$('#imgBg').attr("src", "assets/img/house/B6-1F.png");
+				$("#1F").attr("onclick", "ChangeImg('b6'); return false;");
+				$("#2F").attr("onclick", "ChangeImg('b62F'); return false;");
+				$("#3F").attr("onclick", "ChangeImg('b63F'); return false;");
+				$("#4F").attr("onclick", "ChangeImg('b64F'); return false;");
+				$("#RF").attr("onclick", "ChangeImg('b6RF'); return false;");
+				break;
+			default:
+				break;
+		}
+		$("#divContent").css("width", $( window ).width() - 160);
+		$("#imgBg").css("width", $( window ).width() - 160);
+		$('img[usemap]').rwdImageMaps();
+	}
+	$(function () {
+		
+		document.body.style.overflow = 'hidden';
+		$("#divContent").css("width", $( window ).width() - 160);
+		$("#imgBg").css("width", $( window ).width() - 160);
+		//alert('init width' + ($( window ).width() - 160));
+		$('img[usemap]').rwdImageMaps();
+		$(".requestfullscreen").on("click", function () {
+			$(document).fullScreen(true);
+			$('#imgBg').attr("src", "assets/img/slide/Banner1.jpg");
+			$("#divContent").css("width", $( window ).width() - 160);
+			$("#imgBg").css("width", $( window ).width() - 160);
+			//alert('init width' + ($( window ).width() - 160));
+			//$(".requestfullscreen").hide();
+		});
+		$(".requestnofullscreen").on("click", function () {
+			$(document).fullScreen(false);
+			//$(".requestfullscreen").hide();
+			//alert('requestfullscreen end width' + $( window ).width() - 160);
+		});
+		$(".test").on("click", function () {
+			$("#hero").hide();
+			$("#iTable").show();
+		});
+		$("#A5").on("click", function () {
+			$('#imgBg').attr("src", "assets/img/house/A5-1F.png");
+			$("#divContent").css("width", $( window ).width() - 160);
+			$("#imgBg").css("width", $( window ).width() - 160);
+			$('img[usemap]').rwdImageMaps();
+		});
+		$("#B6").on("click", function () {
+			$('#imgBg').attr("src", "assets/img/house/B6-1F.png");
+			$("#divContent").css("width", $( window ).width() - 160);
+			$("#imgBg").css("width", $( window ).width() - 160);
+			$('img[usemap]').rwdImageMaps();
+		});
+	});
+  </script>
+</head>
+
+<body>
+  <div class="container-fluid" style="width: 100%;">
+    <div class="row flex-nowrap" style="width: 100%;">
+        <div id="slideBar" class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark" style="max-width: 160px;z-index: 2;">
+            <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+				<a href="#" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+					<img src="assets/img/favicon.png" alt="九如泰美" style="width: 50px;font-size: 24px;color: #f2f2f2;font-weight: 900;">
+				</a>
+                <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link align-middle px-0 requestfullscreen">
+                            <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">首頁</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle" onclick="ChangeImg('a5'); return false;">
+                            <i class="fs-4 bi-house-fill"></i> <span class="ms-1 d-none d-sm-inline">房型介紹</span> 
+						</a>
+                        <!--<ul class="collapse nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
+                            <li class="w-100">
+                                <a href="#" class="nav-link px-0" onclick="ChangeImg('a5'); return false;" > <span class="d-none d-sm-inline">A</span>5 </a>
+                            </li>
+                            <li>
+                                <a id="B6" href="#" class="nav-link px-0"  onclick="ChangeImg('b6'); return false;"> <span class="d-none d-sm-inline">B</span>6 </a>
+                            </li>
+                        </ul>-->
+                    </li>
+                     <!--<li>
+                        <a href="#" class="nav-link px-0 align-middle">
+                            <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">工法</span></a>
+                    </li>
+                    <li>
+                        <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle ">
+                            <i class="fs-4 bi-bootstrap"></i> <span class="ms-1 d-none d-sm-inline">配備</span></a>
+                        <ul class="collapse nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
+                            <li class="w-100">
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 1</a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 2</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#submenu3" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                            <i class="fs-4 bi-grid"></i> <span class="ms-1 d-none d-sm-inline">Products</span> </a>
+                            <ul class="collapse nav flex-column ms-1" id="submenu3" data-bs-parent="#menu">
+                            <li class="w-100">
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 1</a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 2</a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 3</a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 4</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link px-0 align-middle">
+                            <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Customers</span> </a>
+                    </li>-->
+                </ul>
+                <hr>
+                <div class="dropdown pb-4">
+					<a href="#" class="nav-link px-0 align-middle requestnofullscreen">
+						<i class="fs-4 bi-power"></i> <span class="ms-1 d-none d-sm-inline">關閉</span> 
+					</a>
+                </div>
+            </div>
+        </div>
+        <div id="divContent" class="col-auto col-md-9 col-xl-10 px-sm-10 px-0" style="width: 1760px;">
+			<div class="row mx-0" style="width: 100%;">
+				<div class="col-12 px-0" style="width: 100%;">
+					<img id="imgBg" src="assets/img/slide/Banner1.jpg" class="img-fluid imgTony" style="width: 1760px;" usemap="#image-map">
+					<map name="image-map">
+						<area id="RF" target="#" alt="RF" title="RF" href="#" onclick="ChangeImg('a5RF'); return false;" style="cursor: pointer;" coords="64,314,218,370" shape="rect">
+						<area id="4F" target="#" alt="4F" title="4F" href="#" onclick="ChangeImg('a54F'); return false;" style="cursor: pointer;" coords="62,373,218,429" shape="rect">
+						<area id="3F" target="#" alt="3F" title="3F" href="#" onclick="ChangeImg('a53F'); return false;" style="cursor: pointer;" coords="62,427,220,485" shape="rect">
+						<area id="2F" target="#" alt="2F" title="2F" href="#" onclick="ChangeImg('a52F'); return false;" style="cursor: pointer;" coords="64,488,218,542" shape="rect">
+						<area id="1F" target="#" alt="1F" title="1F" href="#" onclick="ChangeImg('a5'); return false;" style="cursor: pointer;" coords="66,543,218,598" shape="rect">
+						<area target="#" alt="A5" title="A5" href="#" onclick="ChangeImg('a5'); return false;" style="cursor: pointer;" coords="1529,899,1528,950,1540,950,1540,972,1604,972,1604,899" shape="poly">
+						<area target="#" alt="B6" title="B6" href="#" onclick="ChangeImg('b6'); return false;" style="cursor: pointer;" coords="1653,835,1675,832,1675,844,1697,840,1699,938,1655,935" shape="poly">
+					</map>
+				</div>
+			</div>
+            <table id="iTable" class="table" style="display: none;">
+			  <thead>
+				<tr>
+				  <th scope="col">#</th>
+				  <th scope="col">First</th>
+				  <th scope="col">Last</th>
+				  <th scope="col">Handle</th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr>
+				  <th scope="row">1</th>
+				  <td>Mark</td>
+				  <td>Otto</td>
+				  <td>@mdo</td>
+				</tr>
+				<tr>
+				  <th scope="row">2</th>
+				  <td>Jacob</td>
+				  <td>Thornton</td>
+				  <td>@fat</td>
+				</tr>
+				<tr>
+				  <th scope="row">3</th>
+				  <td>Larry</td>
+				  <td>the Bird</td>
+				  <td>@twitter</td>
+				</tr>
+				<tr>
+				  <th scope="row">1</th>
+				  <td>Mark</td>
+				  <td>Otto</td>
+				  <td>@mdo</td>
+				</tr>
+				<tr>
+				  <th scope="row">2</th>
+				  <td>Jacob</td>
+				  <td>Thornton</td>
+				  <td>@fat</td>
+				</tr>
+				<tr>
+				  <th scope="row">3</th>
+				  <td>Larry</td>
+				  <td>the Bird</td>
+				  <td>@twitter</td>
+				</tr>
+				<tr>
+				  <th scope="row">1</th>
+				  <td>Mark</td>
+				  <td>Otto</td>
+				  <td>@mdo</td>
+				</tr>
+				<tr>
+				  <th scope="row">2</th>
+				  <td>Jacob</td>
+				  <td>Thornton</td>
+				  <td>@fat</td>
+				</tr>
+				<tr>
+				  <th scope="row">3</th>
+				  <td>Larry</td>
+				  <td>the Bird</td>
+				  <td>@twitter</td>
+				</tr>
+				<tr>
+				  <th scope="row">1</th>
+				  <td>Mark</td>
+				  <td>Otto</td>
+				  <td>@mdo</td>
+				</tr>
+				<tr>
+				  <th scope="row">2</th>
+				  <td>Jacob</td>
+				  <td>Thornton</td>
+				  <td>@fat</td>
+				</tr>
+				<tr>
+				  <th scope="row">3</th>
+				  <td>Larry</td>
+				  <td>the Bird</td>
+				  <td>@twitter</td>
+				</tr>
+			  </tbody>
+		  </table>
+		  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+        </div>
+    </div>
+</div>
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/test.js"></script>
+
+</body>
+
+</html>
