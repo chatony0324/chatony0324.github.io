@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+      shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Saprogram</title>
+    <!-- Favicon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      />
+    <!-- Main css file -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <style>
+
+    .carousel-inner img {
+          max-height: 60vh;
+    }
+    .sticker img {
+        object-position: center center; /* 預設值即為 center center，此行可省 */
+        object-fit: scale-down;
+        width: 384px; height: 256px;
+    }
+    .img-featured {
+        height: 200px;
+    /* padding: 0.25rem; */
+    /* background-color: #fff; */
+    /* border: 1px solid #e0e0e0; */
+    /* border-radius: 0.25rem; */
+    }
+	</style>
+  </head>
+
+  <body>
+    <div class="">
+      <!--Main Navigation-->
+      <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <!-- Container wrapper -->
+          <div class="container-fluid">
+            <!-- Toggle button -->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-mdb-toggle="collapse"
+              data-mdb-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+              <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <!-- Navbar brand -->
+              <a class="navbar-brand mt-2 mt-lg-0" href="#">
+                <img
+                  src="https://saprogram.tw/Content/logo.png"
+                  height="30"
+                  alt="SAP Logo"
+                  loading="lazy"
+                  />
+              </a>
+              <!-- Left links -->
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <!-- Navbar dropdown -->
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarNews"
+                    role="button"
+                    data-mdb-toggle="dropdown"
+                    aria-expanded="false">
+                    最新消息
+                  </a>
+                  <!-- Dropdown menu -->
+                  <ul class="dropdown-menu" aria-labelledby="navbarNews">
+                    <li>
+                      <a class="dropdown-item" href="#">高優計畫</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">前導計畫</a>
+                    </li>
+                    <!--<li><hr class="dropdown-divider" /></li>-->
+                    <li>
+                      <a class="dropdown-item" href="#">研習資訊</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">教育新知</a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- Navbar dropdown -->
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarNews"
+                    role="button"
+                    data-mdb-toggle="dropdown"
+                    aria-expanded="false">
+                    高優計畫
+                  </a>
+                  <!-- Dropdown menu -->
+                  <ul class="dropdown-menu" aria-labelledby="navbarNews">
+                    <li>
+                      <a class="dropdown-item" href="#">計畫緣起</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">組織架構</a>
+                    </li>
+                    <!--<li><hr class="dropdown-divider" /></li>-->
+                    <li>
+                      <a class="dropdown-item" href="#">執行情形</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">輔助學校名單</a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- Navbar dropdown -->
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarNews"
+                    role="button"
+                    data-mdb-toggle="dropdown"
+                    aria-expanded="false">
+                    前導計畫
+                  </a>
+                  <!-- Dropdown menu -->
+                  <ul class="dropdown-menu" aria-labelledby="navbarNews">
+                    <li>
+                      <a class="dropdown-item" href="#">計畫緣起</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">組織架構</a>
+                    </li>
+                    <!--<li><hr class="dropdown-divider" /></li>-->
+                    <li>
+                      <a class="dropdown-item" href="#">執行情形</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">輔助學校名單</a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- Navbar dropdown -->
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarNews"
+                    role="button"
+                    data-mdb-toggle="dropdown"
+                    aria-expanded="false">
+                    專家諮輔
+                  </a>
+                  <!-- Dropdown menu -->
+                  <ul class="dropdown-menu" aria-labelledby="navbarNews">
+                    <li>
+                      <a class="dropdown-item" href="#">諮輔介紹</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">諮輔參與委員名單</a>
+                    </li>
+                    <!--<li><hr class="dropdown-divider" /></li>-->
+                    <li>
+                      <a class="dropdown-item" href="#">諮輔類型</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">高優季報</a>
+                </li>
+                <!-- Navbar dropdown -->
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarNews"
+                    role="button"
+                    data-mdb-toggle="dropdown"
+                    aria-expanded="false">
+                    研習報導
+                  </a>
+                  <!-- Dropdown menu -->
+                  <ul class="dropdown-menu" aria-labelledby="navbarNews">
+                    <li>
+                      <a class="dropdown-item" href="#">前導例會</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">課務推動</a>
+                    </li>
+                    <!--<li><hr class="dropdown-divider" /></li>-->
+                    <li>
+                      <a class="dropdown-item" href="#">課程發展</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">影音花絮</a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- Navbar dropdown -->
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarNews"
+                    role="button"
+                    data-mdb-toggle="dropdown"
+                    aria-expanded="false">
+                    亮點課程
+                  </a>
+                  <!-- Dropdown menu -->
+                  <ul class="dropdown-menu" aria-labelledby="navbarNews">
+                    <li>
+                      <a class="dropdown-item" href="#">自主學習</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">校定必修</a>
+                    </li>
+                    <!--<li><hr class="dropdown-divider" /></li>-->
+                    <li>
+                      <a class="dropdown-item" href="#">多元選修</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">探究與實作(自然領域)</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">探究與實作(社會領域)</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">經費平台</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">資料上傳</a>
+                </li>
+                <!-- Navbar dropdown -->
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarNews"
+                    role="button"
+                    data-mdb-toggle="dropdown"
+                    aria-expanded="false">
+                    下載專區
+                  </a>
+                  <!-- Dropdown menu -->
+                  <ul class="dropdown-menu" aria-labelledby="navbarNews">
+                    <li>
+                      <a class="dropdown-item" href="#">高優計畫</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">前導計畫</a>
+                    </li>
+                    <!--<li><hr class="dropdown-divider" /></li>-->
+                    <li>
+                      <a class="dropdown-item" href="#">研習相關</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">其他</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <!-- Collapsible wrapper -->
+
+            <!-- Right elements -->
+            <div class="d-flex align-items-center">
+              <!-- Icon -->
+              <a class="text-reset me-3" href="#">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+              <!-- Notifications -->
+              <div class="dropdown">
+                <a
+                  class="text-reset me-3 dropdown-toggle hidden-arrow"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-mdb-toggle="dropdown"
+                  aria-expanded="false">
+                  <i class="fas fa-bell"></i>
+                  <span class="badge rounded-pill badge-notification bg-danger">1</span>
+                </a>
+                <ul
+                  class="dropdown-menu dropdown-menu-end"
+                  aria-labelledby="navbarDropdownMenuLink">
+                  <li>
+                    <a class="dropdown-item" href="#">Some news</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Another news</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- Avatar -->
+              <div class="dropdown">
+                <a
+                  class="dropdown-toggle d-flex align-items-center hidden-arrow"
+                  href="#"
+                  id="navbarDropdownMenuAvatar"
+                  role="button"
+                  data-mdb-toggle="dropdown"
+                  aria-expanded="false">
+                  <img
+                    src="resizeImg/Oswald.jpg"
+                    class="rounded-circle"
+                    height="25"
+                    alt="Black and White Portrait of a Man"
+                    loading="lazy"
+                    />
+                </a>
+                <ul
+                  class="dropdown-menu dropdown-menu-end"
+                  aria-labelledby="navbarDropdownMenuAvatar">
+                  <li>
+                    <a class="dropdown-item" href="#">My profile</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Settings</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Logout</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- Right elements -->
+          </div>
+          <!-- Container wrapper -->
+        </nav>
+        <!-- Navbar -->
+        <div class="container">
+          <!--Carousel Wrapper-->
+          <div id="carouselSlider" class="carousel slide carousel-fade"
+            data-mdb-ride="carousel" style="background-color: white;
+            padding-right: 5px; padding-left: 5px;">
+            <!--Indicators-->
+            <ol class="carousel-indicators">
+              <li data-mdb-target="#carouselSlider" data-mdb-slide-to="0"
+                class="active"></li>
+              <li data-mdb-target="#carouselSlider" data-mdb-slide-to="1"
+                class=""></li>
+              <li data-mdb-target="#carouselSlider" data-mdb-slide-to="2"
+                class=""></li>
+            </ol>
+            <!--/.Indicators-->
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox" style="background-color:
+              #FFFFFF; padding: 10px; width: 100%;">
+              <!--First slide-->
+              <div class="carousel-item active carousel-item-left">
+                <img class="d-block w-100" src="img/IMG_1150.jfif" alt="第一張幻燈片">
+              </div>
+              <!--/First slide-->
+              <!--Second slide-->
+              <div class="carousel-item carousel-item-next carousel-item-left">
+                <img class="d-block w-100" src="img/0312-2.jpg" alt="第二張幻燈片">
+              </div>
+              <!--/Second slide-->
+              <!--Third slide-->
+              <div class="carousel-item">
+                <img class="d-block w-100"
+                  src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).webp"
+                  alt="第三張幻燈片">
+              </div>
+              <!--/Third slide-->
+            </div>
+            <!--/.Slides-->
+            <!--Controls-->
+            <a class="carousel-control-prev" href="#carouselSlider"
+              role="button" data-mdb-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only"><font style="vertical-align: inherit;"><font
+                    style="vertical-align: inherit;">以前的</font></font></span>
+            </a>
+            <a class="carousel-control-next" href="#carouselSlider"
+              role="button" data-mdb-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only"><font style="vertical-align: inherit;"><font
+                    style="vertical-align: inherit;">下一個</font></font></span>
+            </a>
+            <!--/.Controls-->
+          </div>
+          <!--/.Carousel Wrapper-->
+        </div>
+      </header>
+    </div>
+
+    <div class="container">
+      <div class="card text-center">
+        <div class="card-header">
+          <ul class="nav nav-tabs card-header-tabs mb-3" id="myTab0" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link active"
+                id="home-tab0"
+                data-mdb-toggle="tab"
+                data-mdb-target="#home0"
+                type="button"
+                role="tab"
+                aria-controls="home"
+                aria-selected="true">
+                高優季報
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="profile-tab0"
+                data-mdb-toggle="tab"
+                data-mdb-target="#profile0"
+                type="button"
+                role="tab"
+                aria-controls="profile"
+                aria-selected="false">
+                研習報導
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="contact-tab0"
+                data-mdb-toggle="tab"
+                data-mdb-target="#contact0"
+                type="button"
+                role="tab"
+                aria-controls="contact"
+                aria-selected="false">
+                亮點課程
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="year-tab0"
+                data-mdb-toggle="tab"
+                data-mdb-target="#year0"
+                type="button"
+                role="tab"
+                aria-controls="contact"
+                aria-selected="false">
+                年度大活動
+              </button>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent0">
+            <div
+              class="tab-pane fade show active"
+              id="home0"
+              role="tabpanel"
+              aria-labelledby="home-tab0">
+              <!--Section: Content-->
+              <section>
+                <div class="row gx-lg-5">
+                  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                    <!-- News block -->
+                    <div>
+                      <!-- Featured image -->
+                      <!-- 1200 x 628 像素 -->
+                      <div class="bg-image hover-overlay shadow-1-strong
+                        rounded-5 ripple mb-4" data-mdb-ripple-color="light">
+                        <img
+                          src="resizeImg/1.jpg"
+                          class="img-fluid" />
+                        <a href="#!">
+                          <div class="mask" style="background-color: rgba(251, 251,
+                            251, 0.15);"></div>
+                        </a>
+                      </div>
+                      <!-- Article data -->
+                      <div class="row mb-4">
+                        <div class="col-6" style="text-align: left!important;">
+                          <a href="" class="text-info">
+                            <i class="fas fa-plane"></i>
+                            第13期 2022-04月號
+                          </a>
+                        </div>
+    
+                        <div class="col-6 text-end">
+                          <u>2020/04</u>
+                        </div>
+                      </div>
+    
+                      <!-- Article title and description -->
+                      <a href="" class="text-dark">
+                        <h5>升學新制 更美好的風景</h5>
+    
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          Odit, iste aliquid. Sed
+                          id nihil magni, sint vero provident esse numquam
+                          perferendis ducimus dicta
+                          adipisci iusto nam temporibus modi animi laboriosam?
+                        </p>
+                      </a>
+    
+                      <hr />
+    
+                      <!-- News -->
+                      <a href="" class="text-dark">
+                        <div class="row mb-4 border-bottom pb-2">
+                          <div class="col-3">
+                            <img
+                              src="https://mdbootstrap.com/img/new/standard/city/041.jpg"
+                              class="img-fluid shadow-1-strong rounded" alt="" />
+                          </div>
+    
+                          <div class="col-9">
+                            <p class="mb-2"><strong>Lorem ipsum dolor sit amet</strong></p>
+                            <p>
+                              <u> 15.07.2020</u>
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+    
+                      <!-- News -->
+                      <a href="" class="text-dark">
+                        <div class="row mb-4 border-bottom pb-2">
+                          <div class="col-3">
+                            <img
+                              src="https://mdbootstrap.com/img/new/standard/city/042.jpg"
+                              class="img-fluid shadow-1-strong rounded sticker" alt="" />
+                          </div>
+    
+                          <div class="col-9">
+                            <p class="mb-2"><strong>Lorem ipsum dolor sit amet</strong></p>
+                            <p>
+                              <u> 15.07.2020</u>
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+    
+                      <!-- News -->
+                      <a href="" class="text-dark">
+                        <div class="row mb-4 border-bottom pb-2">
+                          <div class="col-3">
+                            <img
+                              src="https://mdbootstrap.com/img/new/standard/city/043.jpg"
+                              class="img-fluid shadow-1-strong rounded" alt="" />
+                          </div>
+    
+                          <div class="col-9">
+                            <p class="mb-2"><strong>Lorem ipsum dolor sit amet</strong></p>
+                            <p>
+                              <u> 15.07.2020</u>
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+    
+                      <!-- News -->
+                      <a href="" class="text-dark">
+                        <div class="row mb-4 border-bottom pb-2">
+                          <div class="col-3">
+                            <img
+                              src="https://mdbootstrap.com/img/new/standard/city/044.jpg"
+                              class="img-fluid shadow-1-strong rounded" alt="" />
+                          </div>
+    
+                          <div class="col-9">
+                            <p class="mb-2"><strong>Lorem ipsum dolor sit amet</strong></p>
+                            <p>
+                              <u> 15.07.2020</u>
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <!-- News block -->
+                  </div>
+    
+                  <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                    <!-- News block -->
+                    <div>
+                      <!-- Featured image -->
+                      <div class="bg-image hover-overlay shadow-1-strong rounded-5
+                        ripple mb-4" data-mdb-ripple-color="light">
+                        <img
+                          src="resizeImg/2.jpg"
+                          class="img-fluid" />
+                        <a href="#!">
+                          <div class="mask" style="background-color: rgba(251, 251,
+                            251, 0.15);"></div>
+                        </a>
+                      </div>
+    
+                      <!-- Article data -->
+                      <div class="row mb-3">
+                        <div class="col-6">
+                          <a href="" class="text-danger">
+                            <i class="fas fa-book"></i>
+                            Business
+                          </a>
+                        </div>
+    
+                        <div class="col-6 text-end">
+                          <u> 15.07.2020</u>
+                        </div>
+                      </div>
+    
+                      <!-- Article title and description -->
+                      <a href="" class="text-dark">
+                        <h5>This is title of the news</h5>
+    
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          Odit, iste aliquid. Sed
+                          id nihil magni, sint vero provident esse numquam
+                          perferendis ducimus dicta
+                          adipisci iusto nam temporibus modi animi laboriosam?
+                        </p>
+                      </a>
+    
+                      <hr />
+    
+                      <!-- News -->
+                      <a href="" class="text-dark">
+                        <div class="row mb-4 border-bottom pb-2">
+                          <div class="col-3">
+                            <img
+                              src="https://mdbootstrap.com/img/new/standard/city/031.jpg"
+                              class="img-fluid shadow-1-strong rounded" alt="" />
+                          </div>
+    
+                          <div class="col-9">
+                            <p class="mb-2"><strong>Lorem ipsum dolor sit amet</strong></p>
+                            <p>
+                              <u> 15.07.2020</u>
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+    
+                      <!-- News -->
+                      <a href="" class="text-dark">
+                        <div class="row mb-4 border-bottom pb-2">
+                          <div class="col-3">
+                            <img
+                              src="https://mdbootstrap.com/img/new/standard/city/032.jpg"
+                              class="img-fluid shadow-1-strong rounded" alt="" />
+                          </div>
+    
+                          <div class="col-9">
+                            <p class="mb-2"><strong>Lorem ipsum dolor sit amet</strong></p>
+                            <p>
+                              <u> 15.07.2020</u>
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+    
+                      <!-- News -->
+                      <a href="" class="text-dark">
+                        <div class="row mb-4 border-bottom pb-2">
+                          <div class="col-3">
+                            <img
+                              src="https://mdbootstrap.com/img/new/standard/city/033.jpg"
+                              class="img-fluid shadow-1-strong rounded" alt="" />
+                          </div>
+    
+                          <div class="col-9">
+                            <p class="mb-2"><strong>Lorem ipsum dolor sit amet</strong></p>
+                            <p>
+                              <u> 15.07.2020</u>
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+    
+                      <!-- News -->
+                      <a href="" class="text-dark">
+                        <div class="row mb-4 border-bottom pb-2">
+                          <div class="col-3">
+                            <img
+                              src="https://mdbootstrap.com/img/new/standard/city/034.jpg"
+                              class="img-fluid shadow-1-strong rounded" alt="" />
+                          </div>
+    
+                          <div class="col-9">
+                            <p class="mb-2"><strong>Lorem ipsum dolor sit amet</strong></p>
+                            <p>
+                              <u> 15.07.2020</u>
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <!-- News block -->
+                  </div>
+    
+                  <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                    <!-- News block -->
+                    <div>
+                      <!-- Featured image -->
+                      <div class="bg-image hover-overlay shadow-1-strong rounded-5
+                        ripple mb-4" data-mdb-ripple-color="light">
+                        <img
+                          src="https://mdbootstrap.com/img/new/fluid/city/018.jpg"
+                          class="img-fluid" />
+                        <a href="#!">
+                          <div class="mask" style="background-color: rgba(251, 251,
+                            251, 0.15);"></div>
+                        </a>
+                      </div>
+    
+                      <!-- Article data -->
+                      <div class="row mb-3">
+                        <div class="col-6">
+                          <a href="" class="text-warning">
+                            <i class="fas fa-code"></i>
+                            Technology
+                          </a>
+                        </div>
+    
+                        <div class="col-6 text-end">
+                          <u> 15.07.2020</u>
+                        </div>
+                      </div>
+    
+                      <!-- Article title and description -->
+                      <a href="" class="text-dark">
+                        <h5>This is title of the news</h5>
+    
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          Odit, iste aliquid. Sed
+                          id nihil magni, sint vero provident esse numquam
+                          perferendis ducimus dicta
+                          adipisci iusto nam temporibus modi animi laboriosam?
+                        </p>
+                      </a>
+    
+                      <hr />
+    
+                      <!-- News -->
+                      <a href="" class="text-dark">
+                        <div class="row mb-4 border-bottom pb-2">
+                          <div class="col-3">
+                            <img
+                              src="https://mdbootstrap.com/img/new/standard/city/011.jpg"
+                              class="img-fluid shadow-1-strong rounded" alt="" />
+                          </div>
+    
+                          <div class="col-9">
+                            <p class="mb-2"><strong>Lorem ipsum dolor sit amet</strong></p>
+                            <p>
+                              <u> 15.07.2020</u>
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+    
+                      <!-- News -->
+                      <a href="" class="text-dark">
+                        <div class="row mb-4 border-bottom pb-2">
+                          <div class="col-3">
+                            <img
+                              src="https://mdbootstrap.com/img/new/standard/city/012.jpg"
+                              class="img-fluid shadow-1-strong rounded" alt="" />
+                          </div>
+    
+                          <div class="col-9">
+                            <p class="mb-2"><strong>Lorem ipsum dolor sit amet</strong></p>
+                            <p>
+                              <u> 15.07.2020</u>
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+    
+                      <!-- News -->
+                      <a href="" class="text-dark">
+                        <div class="row mb-4 border-bottom pb-2">
+                          <div class="col-3">
+                            <img
+                              src="https://mdbootstrap.com/img/new/standard/city/013.jpg"
+                              class="img-fluid shadow-1-strong rounded" alt="" />
+                          </div>
+    
+                          <div class="col-9">
+                            <p class="mb-2"><strong>Lorem ipsum dolor sit amet</strong></p>
+                            <p>
+                              <u> 15.07.2020</u>
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+    
+                      <!-- News -->
+                      <a href="" class="text-dark">
+                        <div class="row mb-4 border-bottom pb-2">
+                          <div class="col-3">
+                            <img
+                              src="https://mdbootstrap.com/img/new/standard/city/014.jpg"
+                              class="img-fluid shadow-1-strong rounded" alt="" />
+                          </div>
+    
+                          <div class="col-9">
+                            <p class="mb-2"><strong>Lorem ipsum dolor sit amet</strong></p>
+                            <p>
+                              <u> 15.07.2020</u>
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <!-- News block -->
+                  </div>
+                </div>
+              </section>
+              <!--Section: Content-->
+            </div>
+            <div class="tab-pane fade" id="profile0" role="tabpanel"
+              aria-labelledby="profile-tab0">
+              研習報導 content
+            </div>
+            <div class="tab-pane fade" id="contact0" role="tabpanel"
+              aria-labelledby="contact-tab0">
+              亮點課程 content
+            </div>
+            <div class="tab-pane fade" id="year0" role="tabpanel"
+              aria-labelledby="year-tab0">
+              年度大活動 content
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--first Content-->
+    <div class="content2">
+      <div class="container text-info text-center mt-5 mb-5">
+        <div class="row">
+          <div class="col-md">
+            <i class="fab icon fa-mdb"></i>
+            <p class="lead">
+              I used MDB5 layouts and libraries
+            </p>
+          </div>
+          <div class="col-md">
+            <i class="fab icon fa-github"></i>
+            <p class="lead">
+              I used Github for my back up
+            </p>
+          </div>
+          <div class="col-md">
+            <i class="fas icon fa-code"></i>
+            <p class="lead">
+              I used visual studio code 2019
+            </p>
+          </div>
+          <div class="col-md">
+            <i class="far icon fa-images"></i>
+            <p class="lead">
+              I used unsplash for free images
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--first Content-->
+
+  <!--second Content-->
+  <div class="container text-center mt-5 mb-5">
+
+    <!--Grid row-->
+    <div class="row">
+      <!--Grid column-->
+      <div
+        data-mdb-toggle="animation"
+        data-mdb-animation-start="onScroll"
+        data-mdb-animation="fade-in"
+        class="col-lg-6 col-md-12 mb-4">
+        <br/>
+          <h3>Why Use Designs?</h3>
+          <p
+            class="lead">
+            Web designing should be making websites easy to read,
+            not hard to follow. Using easy layouts make building
+            apps smoother and faster for clients.
+          </p>
+          <a href="#!" class="btn btn-dark btn-lg">MORE INFO</a>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-6 col-md-12 mb-4">
+          <br/>
+            <img
+              data-mdb-toggle="animation"
+              data-mdb-animation-start="onScroll"
+              data-mdb-animation="fade-in"
+              data-mdb-animation-delay="300"
+              src="https://images.unsplash.com/photo-1542744095-291d1f67b221?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+              class="img-fluid shadow-1-strong rounded"
+              />
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+        <br/><br/>
+    <!--Grid row-->
+    <div class="row">
+      <!--Grid column-->
+      <div class="col-lg-6 col-md-12 mb-4">
+        <br/>
+          <img
+            data-mdb-toggle="animation"
+            data-mdb-animation-start="onScroll"
+            data-mdb-animation="fade-in"
+            data-mdb-animation-delay="300"
+            src="https://images.unsplash.com/photo-1603985585179-3d71c35a537c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1351&q=80"
+            class="img-fluid shadow-1-strong rounded"
+            />
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div
+          data-mdb-toggle="animation"
+          data-mdb-animation-start="onScroll"
+          data-mdb-animation="fade-in"
+          class="col-lg-6 col-md-12 mb-4">
+          <br/>
+            <h3>Whate Makes Us Different?</h3>
+            <p
+              class="lead">
+              Web development is a skill harnessed by a lot of people
+              and
+              a lot of people doing it the quick way. We don't believe
+              making
+              it harder than it needs to be, but we also believe in
+              authenticity
+              in every app.
+            </p>
+            <a href="#!" class="btn btn-dark btn-lg">MORE INFO</a>
+          </div>
+          <!--Grid column-->
+
+        </div>
+        <!--Grid row-->
+
+      </div>
+      <!--second Content-->
+
+    <br/><br/>
+    <!-- Main js file -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+
+    <footer class="bg-dark text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Form -->
+        <section class="">
+          <form action="">
+            <!--Grid row-->
+            <div class="row d-flex justify-content-center">
+              <!--Grid column-->
+              <div class="col-auto">
+                <p class="pt-2">
+                  <strong>Sign up for our newsletter</strong>
+                </p>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-md-5 col-12">
+                <!-- Email input -->
+                <div class="form-outline form-white mb-4">
+                  <input type="email" style="border: 1px solid
+                    white;" id="form5Example2"
+                    class="form-control" />
+                  <label class="form-label" for="form5Example2">Email
+                    address</label>
+                </div>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-auto">
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-outline-light
+                  mb-4">
+                  Subscribe
+                </button>
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </form>
+        </section>
+        <!-- Section: Form -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color:
+        rgba(0, 0, 0, 0.2);">
+        © 2022 Copyright:
+        <a class="text-white"
+          href="mailto:chatony0324@gmail.com">chatony0324</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+  </body>
+
+</html>
